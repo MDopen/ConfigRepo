@@ -1,8 +1,8 @@
 spring:
   jpa:
     show-sql: true
-      generate-ddl: true
-      ddl-auto: create-drop
+    generate-ddl: true
+    ddl-auto: create-drop
   datasource:
     driverClassName: org.postgresql.Driver
     datasource:
