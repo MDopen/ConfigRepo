@@ -4,7 +4,7 @@ spring:
     generate-ddl: true
     ddl-auto: create-drop
   datasource:
-    driverClassName: org.postgresql.Driver
+    driver-class-name: org.postgresql.Driver
     datasource:
       username: root
       password: root
