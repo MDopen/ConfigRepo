@@ -1,12 +1,8 @@
 server:
   port: 8001
 spring:
-  jpa:
-    show-sql: true
-    generate-ddl: true
-    ddl-auto: create-drop
-  datasource:
-    driver-class-name: org.postgresql.Driver
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/customer
     username: root
     password: root
-    url: jdbc:postgresql://localhost:5432/customer?createDatabaseIfNotExist=true
+
